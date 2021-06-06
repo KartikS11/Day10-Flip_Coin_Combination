@@ -25,7 +25,7 @@ fi
 
 	toss1=$(( RANDOM%2 ))
 	toss2=$(( RANDOM%2 ))
-        doubletDict[$i]=$( echo ${toss1}${toss2} )
+	doubletDict[$i]=$( echo ${toss1}${toss2} )
 
 if [[ ${doubletDict[$i]} == "00" ]]; then
 	((doubleH++))
